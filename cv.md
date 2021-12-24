@@ -1,8 +1,8 @@
 # Nataly Zernova
 
-Junior JS Developer
+### Junior JS Developer
 
-![My photo](./images/my-main-photo.JPG)
+<img src="./images/my-main-photo.JPG" alt="my photo" width="220" height="280"/>
 
  ###  **1. Personal information** 
  
@@ -15,7 +15,7 @@ My name is Nataly and I'm *scientist*. I graduated with honors the Chemical facu
 
 Programming is my new hobby because of it I decided to change my life. Programming attracted me with the opportunity to make mistakes and improve myself.
 ### **3. Personal qualities:**
-![Freelancer](./images/freelancer.png)
+
 - Communicative,
 - Creative,
 - Determined,
@@ -48,3 +48,5 @@ function camelize(str) {
 ### **5. English level:**
 
  A2 - Pre-Intermediate. 
+
+ ![Freelancer](./images/freelancer.png)
