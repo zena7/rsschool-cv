@@ -1,0 +1,17 @@
+/* * { background: #FCCB4A; */
+
+/* } */
+
+.container {
+    font-size: 30px;
+    display: block;
+    margin: 20 0;
+    min-width: 300;
+    min-height: 300;
+    background: #FFFFFF;
+    border: 1px solid royalblue;
+}
+.aside {
+    background: #FAFAFA;
+    border: 1px solid red ;
+}
