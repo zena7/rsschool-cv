@@ -2,16 +2,30 @@
 
 /* } */
 
+body {
+    font-family: "Inter";
+}
+
 .container {
     font-size: 30px;
     display: block;
     margin: 20 0;
     min-width: 300;
     min-height: 300;
-    background: #FFFFFF;
+    background: wheat;
     border: 1px solid royalblue;
 }
-.aside {
-    background: #FAFAFA;
+aside {
+    background: plum;
     border: 1px solid red ;
+}
+aside img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+
+}
+
+aside h2 {
+    text-transform: uppercase;
 }
