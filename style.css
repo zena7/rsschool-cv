@@ -12,7 +12,8 @@
   line-height: 30px;
   padding-left: 20px;
 }
-    body p {
+
+  body p {
     line-height: 30px;
  }
 
@@ -22,6 +23,14 @@
     color: #000;
     margin: 30px;
   }
+
+  .about-me a,
+  .graduation a,
+  .footer-flex a {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   
   a:visited {
     color: #800080;
@@ -57,11 +66,11 @@
 
   .sidebar h2 {
     text-transform: uppercase;
-    }
+  }
 
-    .sidebar ul {
-        list-style: none;
-        padding-left: 0px;
+  .sidebar ul {
+      list-style: none;
+     padding-left: 0px;
     }
 
   .wrapper {
@@ -109,6 +118,10 @@
     grid-column: main;
     margin-left:  20px; ;
   }
+
+  .main h2 {
+    padding-top: 20px;
+  }
   
   .image-flex {
     display: flex;
@@ -125,4 +138,8 @@
     display: block;
     margin: 0 auto;
     /* padding-top: 10px; */
+  }
+
+  .rs-logo {
+    width: 120px;
   }
