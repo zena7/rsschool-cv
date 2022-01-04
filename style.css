@@ -1,17 +1,128 @@
-/* * { background: #FCCB4A; */
+* {
+    box-sizing: border-box;
+  }
 
-/* } */
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.125rem;
+    margin: 80px;
+  }
 
-.container {
-    font-size: 30px;
+  body ul {
+  line-height: 30px;
+  padding-left: 20px;
+}
+    body p {
+    line-height: 30px;
+ }
+
+
+  body a {
+    text-decoration: none;
+    color: #000;
+    margin: 30px;
+  }
+  
+  a:visited {
+    color: #800080;
+  }
+
+  a:hover {
+    color: #8b0000;
+    text-decoration: underline;
+  }
+
+  .nav {
+    margin-bottom: 70px;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    background: rgb(255, 255, 255, 0.94);
+    background-size: cover;
+  }
+  
+  .nav a {
+    color: #000;
+    font-size: 21px;
+    padding: 10px 6px;
+    margin-right: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .nav a:hover {
+    box-shadow: 0 0 6px 1px #a9a9a9;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+  }
+
+  .sidebar h2 {
+    text-transform: uppercase;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .header {
+    min-height: 100px;
+    margin-right: 50px;
+  }
+  
+  .user-pick {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .line-pick {
+      width: 300px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: [sidebar] 4fr [main] 8fr;
+  }
+  
+  .sidebar {
+    grid-column: sidebar;
+  }
+  
+  .main {
+    grid-column: main;
+    margin-left:  20px; ;
+  }
+  
+  .image-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer img {
     display: block;
-    margin: 20 0;
-    min-width: 300;
-    min-height: 300;
-    background: #FFFFFF;
-    border: 1px solid royalblue;
-}
-.aside {
-    background: #FAFAFA;
-    border: 1px solid red ;
-}
+    margin: 0 auto;
+    /* padding-top: 10px; */
+  }
